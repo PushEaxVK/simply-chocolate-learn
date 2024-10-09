@@ -4,22 +4,68 @@
   box-sizing: border-box;
 }
 
+/* 
+Montserrat Italic
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap" rel="stylesheet">
+
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+
+
+
+*/
+
 body {
-  margin: 0;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* margin: 0; */
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  background-color: #fff;
 }
 
 main {
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 a {
   text-decoration: none;
 }
 
-ul {
+ul,
+ol {
   list-style-type: none;
 }
 
@@ -36,8 +82,8 @@ h5,
 h6,
 ul,
 p {
-  margin: 0;
-  padding: 0;
+  /* margin: 0; */
+  /* padding: 0; */
 }
 
 /* --- Visually hidden pattern --- */
@@ -53,4 +99,119 @@ p {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.header {
+}
+.header-nav {
+}
+.logo {
+}
+.header-accent {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-list-link {
+}
+.header-social {
+}
+.header-social-item {
+}
+.header-social-link {
+}
+.hero {
+}
+.hero-title {
+}
+.hero-button {
+}
+.hero-link {
+}
+.hero-link-scroll {
+}
+.features {
+}
+.visually-hidden {
+}
+.features-list {
+}
+.features-item {
+}
+.features-subtitle {
+}
+.features-text {
+}
+.taste {
+}
+.taste-title {
+}
+.taste-accent {
+}
+.taste-text {
+}
+.taste-list {
+}
+.taste-list-item {
+}
+.taste-image {
+}
+.taste-subtitle {
+}
+.made {
+}
+.made-title {
+}
+.made-accent {
+}
+.made-image {
+}
+.made-subtitle {
+}
+.made-list {
+}
+.made-list-item {
+}
+.made-list-text {
+}
+.lovers {
+}
+.lovers-title {
+}
+.lovers-accent {
+}
+.lovers-list {
+}
+.lovers-list-item {
+}
+.lovers-list-image {
+}
+.lovers-subtitle {
+}
+.lover-list-text {
+}
+.lovers-button {
+}
+.footer {
+}
+.footer-text {
+}
+.footer-accent {
+}
+.footer-contact-text {
+}
+.footer-address {
+}
+.footer-address-list {
+}
+.footer-address-item {
+}
+.footer-address-link {
+}
+.footer-list {
+}
+.footer-list-item {
+}
+.footer-list-link {
 }
